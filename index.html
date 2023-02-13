@@ -10,7 +10,7 @@
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="text-light">
     
     <header class="p-4 bg-primary">
         <div class="container">
@@ -29,89 +29,116 @@
         </div>
     </header>
 
-    <div class="jumbo bg-info">
-        <div class="jumbo-info d-flex flex-column align-items-center p-4">
-            <div class="jumbo-img py-2">
-                <img src="https://picsum.photos/200" alt="sample img">
-            </div>
-            <h1>START BOOTSTRAP</h1>
-            <h5>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
-        </div>
-    </div>
-
-    <!-- PORTFOLIO -->
-    <div class="container text-center">
-        <div class="portfolio py-5">
-            <h2>PORTFOLIO</h2>
-            <div class="row row-cols-3 g-4">
-                <div class="col debug">
+    <!-- main -->
+    <main>
+        <div class="jumbo bg-info">
+            <div class="jumbo-info d-flex flex-column align-items-center p-4">
+                <div class="jumbo-img py-2">
                     <img src="https://picsum.photos/200" alt="sample img">
                 </div>
-                <div class="col debug">
-                    <img src="https://picsum.photos/200" alt="sample img">
-                </div>
-                <div class="col debug">
-                    <img src="https://picsum.photos/200" alt="sample img">
-                </div>
-                <div class="col debug">
-                    <img src="https://picsum.photos/200" alt="sample img">
-                </div>
-                <div class="col debug">
-                    <img src="https://picsum.photos/200" alt="sample img">
-                </div>
-                <div class="col debug">
-                    <img src="https://picsum.photos/200" alt="sample img">
-                </div>
+                <h1>START BOOTSTRAP</h1>
+                <h5>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
             </div>
         </div>
-    </div>
-    <!-- / PORTFOLIO -->
+    
+        <!-- PORTFOLIO -->
+        <div class="container text-center text-dark">
+            <div class="portfolio py-5">
+                <h2>PORTFOLIO</h2>
+                <div class="row row-cols-3 g-4">
+                    <div class="col debug">
+                        <img src="https://picsum.photos/200" alt="sample img">
+                    </div>
+                    <div class="col debug">
+                        <img src="https://picsum.photos/200" alt="sample img">
+                    </div>
+                    <div class="col debug">
+                        <img src="https://picsum.photos/200" alt="sample img">
+                    </div>
+                    <div class="col debug">
+                        <img src="https://picsum.photos/200" alt="sample img">
+                    </div>
+                    <div class="col debug">
+                        <img src="https://picsum.photos/200" alt="sample img">
+                    </div>
+                    <div class="col debug">
+                        <img src="https://picsum.photos/200" alt="sample img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- / PORTFOLIO -->
+    
+        <!-- ABOUT -->
+        <div class="about py-5 bg-success text-center">
+            <div class="container">
+                <h2>ABOUT</h2>
+                <div class="row g-4 mx-5">
+                    <div class="col">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aspernatur ab expedita? Veritatis vel esse, alias error ad modi provident a dolor aut id rem molestias recusandae soluta itaque quas!Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aspernatur ab expedita? Veritatis vel esse, alias error ad modi provident a dolor aut id rem molestias recusandae soluta itaque quas!
+                    </div>
+                    <div class="col">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aspernatur ab expedita? Veritatis vel esse, alias error ad modi provident a dolor aut id rem molestias recusandae soluta itaque quas!Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aspernatur ab expedita? Veritatis vel esse, alias error ad modi provident a dolor aut id rem molestias recusandae soluta itaque quas!
+                    </div>
+                </div>
+                <button type="button" class="btn btn-outline-primary">Download</button>
+            </div>
+        </div>
+        <!-- / ABOUT -->
+    
+        <!-- FORM -->
+        <div class="container text-dark">
+            <div class="form py-5">
+                <h2 class="text-center">CONTACT ME</h2>
+                <form>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Name" aria-label="Name">
+                        <label for="floatingInput">Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Phone" aria-label="Phone Number">
+                        <label for="floatingInput">Phone Number</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 150px"></textarea>
+                        <label for="floatingTextarea">Message</label>
+                      </div>
+                    <button type="submit" class="btn btn-success mt-3">Send</button>
+                  </form>
+            </div>
+        </div>
+        <!-- / FORM -->
+    </main>
+    <!-- /main -->
 
-    <!-- ABOUT -->
-    <div class="about py-5 bg-success text-center">
-        <div class="container">
-            <h2>ABOUT</h2>
-            <div class="row g-4 mx-5">
+
+    <!-- footer -->
+    <footer class="bg-info">
+        <div class="container py-5 ">
+            <div class="row row-cols-3 gx-5">
                 <div class="col">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aspernatur ab expedita? Veritatis vel esse, alias error ad modi provident a dolor aut id rem molestias recusandae soluta itaque quas!Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aspernatur ab expedita? Veritatis vel esse, alias error ad modi provident a dolor aut id rem molestias recusandae soluta itaque quas!
+                    <h5>LOCATION</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, harum quam. Sunt, quidem sequi dignissimos tempore facere dolorem dolorum nulla cumque similique, sit quae adipisci ipsam, qui minima expedita at?</p>
                 </div>
                 <div class="col">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aspernatur ab expedita? Veritatis vel esse, alias error ad modi provident a dolor aut id rem molestias recusandae soluta itaque quas!Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aspernatur ab expedita? Veritatis vel esse, alias error ad modi provident a dolor aut id rem molestias recusandae soluta itaque quas!
+                    <h5>AROUND THE WEB</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum fugit corporis eaque pariatur adipisci expedita dicta non, modi placeat assumenda ducimus vel, officiis quis. Suscipit id corrupti porro alias blanditiis.</p>                    
+                </div>
+                <div class="col">
+                    <h5>ABOUT FREELANCER</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum fugit corporis eaque pariatur adipisci expedita dicta non, modi placeat assumenda ducimus vel, officiis quis. Suscipit id corrupti porro alias blanditiis.</p>
                 </div>
             </div>
-            <button type="button" class="btn btn-outline-primary">Download</button>
         </div>
-    </div>
-    <!-- / ABOUT -->
-
-    <!-- FORM -->
-    <div class="container">
-        <div class="form py-5">
-            <h2 class="text-center">CONTACT ME</h2>
-            <form>
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="Name" aria-label="Name">
-                    <label for="floatingInput">Name</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="Phone" aria-label="Phone Number">
-                    <label for="floatingInput">Phone Number</label>
-                </div>
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 150px"></textarea>
-                    <label for="floatingTextarea">Message</label>
-                  </div>
-                <button type="submit" class="btn btn-success mt-3">Send</button>
-              </form>
+        <div class="copyright bg-secondary text-center">
+            <span>Copyright &#169; My Website 2023</span>
         </div>
-    </div>
-    <!-- / FORM -->
-
-
+    </footer>
+    <!-- /footer -->
 
     
     <!-- scripts -->
