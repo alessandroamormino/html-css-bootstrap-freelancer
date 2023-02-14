@@ -46,6 +46,14 @@ main ._separator ._separator-right {
     background-color: #212529;
 }
 
+main .form form input::placeholder {
+    color: black;
+}
+
+main .form form button {
+    background-color: #1DBD9C;
+    color: white;
+}
 
 
 /* / Main */

@@ -133,20 +133,23 @@
                     <div class="_separator-right"></div>
                 </div>
                 <form class="px-2">
-                    <div class="mb-3">
-                        <input type="text" placeholder="Name" class="form-control" >
+                    <div class="mb-3 form-floating">
+                        <input type="text" placeholder="Name" class="form-control border-0 border-bottom rounded-0" id="floatingName">
+                        <label for="floatingName">Name</label>
                     </div>
-                    <div class="mb-3">
-                        <input type="email" class="form-control" placeholder="Email Address">
+                    <div class="mb-3 form-floating">
+                        <input type="email" class="form-control border-0 border-bottom rounded-0" placeholder="Email Address" id="floatingEmail">
+                        <label for="floatingEmail">Email Address</label>
                     </div>
-                    <div class="mb-3">
-                        <input type="tel" class="form-control" placeholder="Phone Number">
+                    <div class="mb-3 form-floating">
+                        <input type="tel" class="form-control border-0 border-bottom rounded-0" placeholder="Phone Number" id="floatingPhone">
+                        <label for="floatingPhone">Phone Number</label>
                     </div>
                     <div class="form-floating">
-                        <textarea class="form-control" placeholder="Message" id="floatingTextarea" style="height: 150px"></textarea>
+                        <textarea class="form-control border-0 border-bottom rounded-0" placeholder="Message" id="floatingTextarea" style="height: 150px"></textarea>
                         <label for="floatingTextarea">Message</label>
-                      </div>
-                    <button type="submit" class="btn btn-success mt-3">Send</button>
+                    </div>
+                    <button type="submit" class="btn mt-3">Send</button>
                   </form>
             </div>
         </div>
