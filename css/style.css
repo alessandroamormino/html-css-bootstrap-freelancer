@@ -1,5 +1,6 @@
 /* Nav */
-header nav {
+header nav, 
+footer .copyright{
     background-color: #2C3E50;
     color: white;
 }
@@ -55,5 +56,39 @@ main .form form button {
     color: white;
 }
 
-
 /* / Main */
+
+/* Footer */
+
+footer {
+    background-color: #3B536D;
+    color: white;
+}
+
+footer .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+}
+
+footer .footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+footer .green {
+    color: #1BBC9C;
+    text-decoration: none;
+}
+
+footer .copyright {
+    font-size: .8em;
+}
+
+/* / Footer */
