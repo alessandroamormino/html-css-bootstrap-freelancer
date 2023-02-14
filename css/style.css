@@ -1,6 +1,13 @@
-.debug {
-    /* border: 1px solid red; */
+.my-cols {
+    min-height: 200px;
     background-color: rgba(255, 0, 0, 0.4);
 }
 
 /* Only for debug layout */
+
+
+/* Nav */
+nav {
+    background-color: #2C3E50;
+}
+/* / Nav */
