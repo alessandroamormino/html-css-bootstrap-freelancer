@@ -5,9 +5,47 @@
 
 /* Only for debug layout */
 
-
 /* Nav */
 nav {
     background-color: #2C3E50;
+    color: white;
 }
 /* / Nav */
+
+/* Main */
+main .green-white {
+    background-color: #1BBC9C;
+    color: white;
+}
+
+main .jumbo .jumbo-info .jumbo-img{
+    width: 10%;
+}
+
+main ._separator .bi {
+    font-size: 1.3em;
+}
+
+main .jumbo ._separator ._separator-left, 
+main .jumbo ._separator ._separator-right {
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+}
+
+main .about ._separator ._separator-left, 
+main .about ._separator ._separator-right {
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+}
+
+main ._separator ._separator-left, 
+main ._separator ._separator-right {
+    width: 100px;
+    height: 2px;
+    background-color: #212529;
+}
+
+
+/* / Main */
