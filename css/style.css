@@ -6,10 +6,16 @@
 /* Only for debug layout */
 
 /* Nav */
-nav {
+header nav {
     background-color: #2C3E50;
     color: white;
 }
+
+header nav a, 
+header nav .navbar-nav a{
+    color: white;
+}
+
 /* / Nav */
 
 /* Main */
